@@ -6,7 +6,7 @@
 body{
     background-image: url(images/bigbackground.jpg);
 }
-
+/* Rubriken får rätt färg, storlek och en linje under för designens skull*/
 h1{
     text-align: center;
     color: white;
@@ -22,11 +22,12 @@ h1{
     text-shadow: 1px 1px 1px rgb(63, 63, 63);
 }
 
+/* De mindre rubrikerna får rätt färg och placering för att inte smälta in deras tillhörande lista*/
 h3{
     color:white;
     text-align: center;
 }
-
+/* De tre ikonerna placeras uppe i det högra hörnet */
 #links{
     list-style-type: none;
     overflow: hidden;
@@ -40,7 +41,7 @@ h3{
     max-width: 100%;
     font-size: 4vw;
 }
-
+/*Ikonerna får en standardfärg och en färg när man hovrar över dem */
 a:link, a:visited, a:active{
     color:white;
     text-decoration: none;
@@ -50,7 +51,7 @@ a:hover{
     color:black;
     text-decoration: none;
 }
-
+/* Bilden får en ram och en storlek som anpassas efter användarens skärmstorlek*/
 #photo{
     max-width: 25%;
     padding:0;
@@ -61,7 +62,7 @@ a:hover{
     border-width:normal;
     box-shadow: 2px 2px 2px rgb(46, 46, 46);
 }
-
+/* Stycket med presentaionen får rätt font och placeras så att det blir snyggt ihop med bild och rubrik*/
 #presentation{
     color:white;
     text-align:center;
@@ -75,13 +76,13 @@ a:hover{
     font-size: 2vw;
     text-shadow: 1px 1px 1px rgb(63, 63, 63); 
 }
-
+/* De två rutorna med övrig text ska "wrappas" om fönstret förminskas */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
   }
-
-#erfarenhet {
+/* Texten placeras snyggt i en ruta och får rätt typsnitt och färg*/
+#erfarenhet{
     list-style-type: none;
     padding-top:0em;
     padding-left:1em;
@@ -97,11 +98,11 @@ a:hover{
     font-family: 'Shanti', sans-serif;
     font-size: 2vw;
 }
-
+/* Punkterna på listan får lite större mellanrum för bättre läsbarhet*/
 #erfarenhet li{
     padding:10px;
 }
-
+/* Texten placeras snyggt i en ruta och får rätt typsnitt och färg*/
 #utbildning{
     list-style-type: none;
     padding-top:0em;
@@ -118,11 +119,11 @@ a:hover{
     font-family: 'Shanti', sans-serif;
     font-size:2vw;
 }
-
+/* Punkterna på listan får lite större mellanrum för bättre läsbarhet*/
 #utbildning li{
     padding:10px;
 }
-
+/* Här beskrivs vad som ska hända med vissa element om skärmen blir smalare än 450px */
 @media all and (max-device-width:450px){
     #erfarenhet, #utbildning {
         font-size:12px;
@@ -135,7 +136,7 @@ a:hover{
         font-size:11px;
     }
 }
-
+/* Längst ner på sidan finns information om copyright*/
 #footer{
     position:absolute;
     width: 100%;
