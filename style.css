@@ -4,8 +4,8 @@
 }
 
 body{
-    background-image: url(images/CV_background.jpg);
-    
+    background-image: url(images/bigbackground.jpg);
+  
 }
 
 h1{
@@ -41,10 +41,10 @@ h3{
     float:right;
     padding-right:3vw;
     max-width: 100%;
-    font-size: 3vw;
+    font-size: 4vw;
     
 }
-a:link, a:visited{
+a:link, a:visited, a:active{
     color:white;
     text-decoration: none;
 }
@@ -136,11 +136,11 @@ a:hover{
 
 
 #erfarenhet li{
-    padding:4px;
+    padding:10px;
 }
 
 #utbildning li{
-    padding:4px;
+    padding:10px;
 }
 
 
